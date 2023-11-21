@@ -1,0 +1,22 @@
+{
+  "name": "extensions",
+  "version": "0.0.1",
+  "author": {
+    "name": "Harshdeep Singh Hura",
+    "url": "https://harshdeephura.com"
+  },
+  "scripts": {
+    "pretty": "prettier --write ./",
+    "-----> Shopify <-----": "",
+    "g:install": "npm i -g @shopify/app@latest @shopify/cli@latest",
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate extension",
+    "deploy": "shopify app deploy"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
+}

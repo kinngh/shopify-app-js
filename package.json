@@ -1,0 +1,23 @@
+{
+  "name": "shopify-app-js",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "author": {
+    "name": "Harshdeep Singh Hura",
+    "url": "https://harshdeephura.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kinngh/shopify-app-js.git"
+  },
+  "scripts": {
+    "ngrok": "ngrok start --all --config ./ngrok.yml",
+    "pretty": "prettier --write ./",
+    "prisma:sync": "cp -R ./app/schema/prisma.schema ./extensions/schema/prisma.schema"
+  },
+  "devDependencies": {
+    "ngrok": "^5.0.0-beta.2",
+    "prettier": "^3.1.0"
+  }
+}
