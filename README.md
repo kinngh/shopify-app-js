@@ -1,4 +1,5 @@
 # Shopify App JS
+## To be used as a reference, and not directly to be used in production
 
 This is my personal production stack for when I'm building apps. Each folder in the root dir is it's own independant package that's deployed to different services and is available as an open source project.
 
